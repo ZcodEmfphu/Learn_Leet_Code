@@ -2,8 +2,8 @@ package m072024;
 
 public class Day01 {
 
-/* Given an integer array arr, return true if there are three consecutive odd numbers in the array
-  .Otherwise, return false. */
+   /* Given an integer array arr, return true if there are three consecutive odd numbers in the array
+     .Otherwise, return false. */
 
     public static boolean threeConsecutiveOlds(int[] arr) {
         for (int i = 0; i < arr.length - 2; i++) {
