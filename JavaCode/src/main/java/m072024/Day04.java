@@ -26,10 +26,15 @@ public class Day04 {
 
             // Move nextSum to the first non-zero value of the next block.
             nextSum = nextSum.next;
+            if (nextSum != null) {
+                // Move modify also to this node.
+                modify.next = nextSum;
+                modify = modify.next;
+            } else {
+                modify.next = null;
+            }
 
-            // Move modify also to this node.
-            modify.next = nextSum;
-            modify = modify.next;
+
         }
 
 
