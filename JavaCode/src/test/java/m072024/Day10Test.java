@@ -7,7 +7,7 @@ class Day10Test {
     @Test
     public void reverseParentheses() {
         String s1 = "(abcd)";
-        Assertions.assertEquals("dcba", Day10.reverseParentheses(s1));
+        Assertions.assertEquals("dcba", Day10.reverseParentheses_2((s1)));
     }
 
 }
